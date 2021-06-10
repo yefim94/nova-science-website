@@ -1,0 +1,451 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Maison Neue Book","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+ height: 900px; 
+     background-color: #000;
+     color: white;
+
+}
+ .image img {
+   width: 50px;
+ }
+ .cont {
+  background-color: #111032;
+  padding: 0px;
+  margin: 0px;
+}
+.nav-wrapper {
+  display: flex;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  }
+.nav-wrapper .left-side  {
+  display: flex;
+}
+.nav-wrapper .left-side {
+margin-left: -50px;
+}
+
+.nav-wrapper .left-side .nav-links ul li  {
+  display: inline;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: default;
+  top: 13px;
+  position: relative;
+  margin-left: 24px;
+  font-family: 'Libre Baskerville', serif;
+ transition-duration: 400ms; 
+  }
+
+
+.nav-wrapper .right-side  .buttons{
+  color: white;
+  display: flex;
+  padding-right: 5px;
+   justify-content: space-between;
+}
+
+.nav-wrapper .left-side .image img {
+  margin-left: 25px;
+ 
+}
+
+.nav-wrapper .right-side .buttons a {
+  text-decoration: none;
+  top: 14px;
+  color: #fff;
+  background: #341395;
+  margin: 6px;
+  font-size: 22.2px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  font-family: "Maison Neue Book","Helvetica Neue", elvetica,Arial,sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
+   transition-duration: 600ms; 
+
+  
+  left: 700px;
+  margin-top: -7px;
+  position: relative;
+}
+
+.nav-wrapper .right-side .buttons {
+  justify-content: space-between;
+      transition-duration:  .35s;
+
+  margin-left: 100px;
+  border-radius: 10px;
+  font-family: "Maison Neue Book","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+ .nav-wrapper .left-side ul li a {
+   text-decoration: none;
+   color: #fff;
+ }
+  .cont {
+   display: fixed;
+  }
+  .nav-wrapper .left-side .nav-links ul li a {
+         transition-duration: 200ms; 
+
+  }
+  /*HOVER STATIS*/
+  .nav-wrapper .left-side .nav-links ul li a:hover {
+    color: #0554F2;
+    transition: .5s ease;
+    }
+  .nav-wrapper .right-side .buttons a:hover {
+    background-color: #F23D5E;
+    
+
+transition: all ease-out 1.3s;
+    color: black;
+
+  }
+  /*ABOUT INFORMATION ABOUT CODE FOR DIFFERENT SECTIONS*/
+  .about h6 {
+    text-align: center;
+    font-size: 75px;
+    margin-top: 70px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  }
+  .about p {
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 20px;
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: 700;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+  .about img {
+    margin-left: 420px;
+    width: 600px;
+    margin-top: 34px;
+    transition-duration: 0.4s;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  }
+  .about img:hover {
+    cursor: pointer;
+    width: 540px;
+    transition:  .35s;
+  }
+  .youtube img {
+    margin-top: 10px;
+    width: 650px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  }
+  
+  .youtube p {
+    font-size: 70px;
+    text-align: center;
+    font-family: "Maison Neue Book","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: white;   
+    font-weight: 900;
+    top: 60px;
+  }
+  .youtube {
+    background-color: white;
+    height: 700px;
+  } 
+  .about {
+height: 550px;
+}
+.youtube p {
+color: black;
+font-size: 25px;
+  margin-left: 10px;
+  font-weight: 900;
+  padding-top: 30px;
+}
+.youtube h4{
+  color: black;
+  text-align: center;
+  font-size: 70px;
+  margin-top: default;
+  position: relative;
+  padding-top: 50px;
+}
+.youtube .link-learn p{
+  text-align: center;
+  margin-top: -20px;
+  color: #06c;
+  font-size: 28px;
+  font-weight: 400;
+  text-decoration: underline;
+  text-decoration-color:#06c;
+ font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.youtube a:hover {
+  text-decoration: underline;
+  color: #06c;
+}
+.youtube .link a {
+padding-top: 16px;
+text-align: center;
+}
+.link a {
+  text-align: center;
+}
+.youtube .description p {
+  color: #86868b;
+  font-weight: 450;
+  margin-top: -20px;
+  font-size: 20px;
+}
+
+.topic .text p {
+  text-align: center;
+  font-size: 76px;
+  margin-top: 30px;
+  font-weight: 700;
+}
+.topic {
+   background-color: #2a4df9;
+   padding-top: 50px;
+  height: 900px;
+}
+
+.topic-section {
+  margin-left: 160px;
+  
+}
+.topic .image-top img{
+  margin-top: 40px;
+  margin-left: 50px;
+      transition: ease .15s;
+
+}
+.topic .image-down img {
+  margin-top: 30px;
+  margin-left: 50px;
+    transition: ease .35s;
+
+}
+.topic img {
+   width: 280px;
+}
+.topic .image-down img:hover {
+  width: 295px;
+  transition: ease.20s ;
+cursor: pointer;
+}
+.topic .image-top img:hover {
+  width: 295px;
+border-radius: 50px;
+  transition: ease-in 0.30s ;
+
+  cursor: pointer;
+}
+#info-more p {
+  color: #28007d;
+  font-weight: 600;
+  margin-top: -10px;
+  font-size: 33px;
+  padding-top: 30px;
+  margin-right: 20px;
+}
+#learn  {
+    text-align: center;
+  margin-top: 34px;
+   font-size: 35px;
+}
+#learn a {
+    color: #290c65;
+    text-decoration: none;
+}
+/*HOVER STATUS MORE MORE MORE */
+#learn a:hover {
+  text-decoration: underline;
+  color: #b50b87; 
+  text-decoration-color: #b50b87
+  ;
+  transition: ease 3s;
+}
+.aliens {
+  background-color: #AD326C;
+  height: 700px;
+}
+.aliens .header p {
+  font-size: 100px;
+  padding-top: 30px;
+   text-align: center;
+}
+.aliens img {
+  width: 750px;
+  
+  margin-top: 10px;
+  transition-duration: 500ms;
+   display: block;
+  margin-left: 260px;
+  margin-right: auto;
+}
+.aliens img:hover {
+  width: 800px;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: 0.7s;
+   transition-timing-function: ease; 
+ border: none;
+}
+   .aliens .link-hov a   {
+ margin-left: 620px;
+  color: #290c65;
+  font-size:  35px;
+  font-weight: 440;
+  text-decoration: none;
+ font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.aliens a:hover {
+  text-decoration: underline;
+  
+}
+#cont-black {
+  background-color: #51B9ED;
+  height: 580px;
+}
+#cont-black .black-image img {
+ width: 700px;
+ display: block;
+  margin-left: 370px;
+  margin-right: auto;
+   margin-top: 30px;
+  transition-duration: 2s;
+ }
+#cont-black .black-image img:hover {
+  border-radius: 56px;
+  transition: 1s ease;
+}
+
+.discover  p {
+text-align: center;
+font-size: 60px;
+font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+font-weight: 800;
+}
+
+.discover-text {
+margin-left: 390px;
+font-size:  27px;
+color: #1B909E;
+cursor: pointer;
+margin-top: 10px;
+}
+.end {
+  display: flex;
+  background-color: #F23D5E;
+  margin: -6px;
+  padding: 6px;
+  border-top: solid 1.2px;
+  justify-content: space-between;
+}
+
+
+.left-side-end  > .nav-link-wrapper-end  { 
+  display: inline;
+  color:black;
+  font-size: 13.3px;
+  margin-left: 10px;
+  word-spacing: 2px;
+  cursor: pointer;
+  
+}
+
+
+
+.right-side-end {
+  display: flex;
+  color: black;
+   font-size: 13.3px;
+   word-spacing: 60px;
+}
+.right-side-end .nav-link-wrapper-end {
+  display: flex;
+   font-size: 13.3px;
+   word-spacing: 5px;
+   margin-left: 15px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.nav-link-wrapper-end {
+  text-decoration: none;
+}
+
+.nav-link-wrapper-end:hover {
+  text-decoration: underline;
+  text-decoration-color: #DB4437;
+  transition: 1s ease;
+  color: #4285F4;
+}
+.black-image {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image {
+  margin-left: 70px;
+}
+.egg-cont {
+  background-color: #0A0C18;
+  height: 500px;
+}
+.short p {
+  text-align: center;
+  font-size: 80px;
+  font-weight: 800;
+}
+.egg-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+  cursor: pointer;
+}
+.egg-image {
+  cursor: pointer;
+}
+.egg-cont{
+  height: 600px;
+}
+.cont-star .image-star img{
+  width: 100px;
+}
+.cont-star {
+  background-color: #010B40;
+  height: 630px;  
+}
+.cont-star  .image-star img {
+  width: 680px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+.cont-star > .hot-topic-text {
+font-size: 100px;
+color: #AECEE7;
+font-weight: 700;
+font-family: sans-serif; 
+text-align: center;
+text-transform: initial;
+}
